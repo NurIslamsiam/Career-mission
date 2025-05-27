@@ -68,6 +68,12 @@ body {
   color: #818192;
   font-weight: lighter;
 }
+.pc .secondbtn:hover {
+    background: linear-gradient(to top, #72bcd3, #fcfeff);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); 
+  transform: translateY(-2px); 
+  transition: all 0.3s ease;
+}
 .pc .secondbtn {
   background: linear-gradient(to right, #ffb031, #f3d284);
   border: none;
@@ -130,6 +136,8 @@ body {
   font-size: 33px;
 }
 
+
+
 .ndbox button {
   background: linear-gradient(to right, #ffb031, #f3d284);
   border: none;
@@ -145,6 +153,7 @@ body {
   margin-bottom: 140px;
   margin-left: 70px;
 }
+
 
 h1 {
   text-align: center;
@@ -241,6 +250,13 @@ iframe {
   height: 40px;
   width: 40px;
   margin-top: 22px;
+}
+
+button:hover {
+  background: linear-gradient(to top, #72bcd3, #fcfeff);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); 
+  transform: translateY(-2px); 
+  transition: all 0.3s ease;
 }
 @media screen and (max-width: 1024px) {
   .career {
@@ -339,3 +355,5 @@ iframe {
     margin: 0;
   }
 }
+
+
